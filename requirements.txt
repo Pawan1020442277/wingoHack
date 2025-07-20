@@ -1,0 +1,4 @@
+pip install python-telegram-bot==20.6
+pip install nest_asyncio
+pip install httpx
+pip install requests
