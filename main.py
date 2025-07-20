@@ -6,8 +6,8 @@ from telegram import Update, BotCommand
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # --- CONFIG ---
-TELEGRAM_TOKEN = "7749567804:AAH3klEBgBRay3J3VWWPLOVqs1mTDrl8B2M"
-GROQ_API_KEY = "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"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+GROQ_API_KEY = os.getenv("OPENAI_API_KEY")
 ACCESS_KEY = "mysecretkey"
 
 PREDICTED_USERS = set()
